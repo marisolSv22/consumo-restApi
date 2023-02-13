@@ -40,7 +40,7 @@ const Form = ({employee, setEmployee}) => {
         <form onSubmit={handleSumit}>
             <div className="mb-3">
                 <label className="form-label" htmlFor="name">Name</label>
-                <input value={name} onChange={handleChange} className="form-control" type="text" id="name" name="name" />
+                <input value={name} onChange={handleChange} className="form-control" type="text" id="name" name="name"/>
             </div>
             <div className="mb-3">
                 <label className="form-label" htmlFor="salary">Salary</label>

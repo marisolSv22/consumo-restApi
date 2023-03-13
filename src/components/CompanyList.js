@@ -48,7 +48,7 @@ const CompanyList = ({employee, setEmployee, employees, setlistUpdated}) => {
                     <th>ID</th>
                     <th>Name</th>
                     <th>Salary</th>
-                    <th style={{textAlign:'center'}}>Actions</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
